@@ -1,0 +1,337 @@
+html{
+scroll-behavior:smooth;
+}
+
+body{
+background:#dca93c;
+font-family:'Segoe UI',sans-serif;
+padding:20px;
+}
+
+/* CONTAINER */
+.container{
+background:#f8f8f5;
+border-radius:40px;
+padding:30px;
+}
+
+/* NAVBAR */
+.navbar-custom{
+background:rgba(255,255,255,.7);
+backdrop-filter:blur(10px);
+-webkit-backdrop-filter:blur(10px);
+
+position:sticky;
+top:0;
+z-index:1000;
+
+border-radius:20px;
+margin-bottom:20px;
+}
+
+.navbar-brand{
+font-size:32px;
+font-weight:800;
+color:#5b2d0c !important;
+}
+
+.nav-link{
+color:#5b2d0c !important;
+font-weight:600;
+margin-left:15px;
+}
+
+.nav-link:hover{
+color:#dca93c !important;
+}
+
+/* BANNER */
+.banner{
+height:300px;
+
+background-image:url('../img/bg.jpeg');
+
+background-size:cover;
+background-position:center;
+background-repeat:no-repeat;
+
+border-radius:30px;
+
+box-shadow:0 10px 25px rgba(0,0,0,.12);
+}
+
+/* PROMO */
+.promo-box{
+background:#fff8e7;
+border-left:6px solid #dca93c;
+
+padding:15px 20px;
+
+margin-top:20px;
+
+border-radius:15px;
+
+font-weight:600;
+
+color:#5b2d0c;
+}
+
+/* JUDUL */
+#menu h2,
+#tentang h2,
+#lokasi h2{
+font-size:50px;
+font-weight:800;
+color:#5b2d0c;
+text-align:center;
+margin-bottom:40px;
+}
+
+#menu h2::after,
+#tentang h2::after,
+#lokasi h2::after{
+content:"";
+display:block;
+
+width:120px;
+height:4px;
+
+background:#dca93c;
+
+margin:10px auto;
+
+border-radius:20px;
+}
+
+/* PRODUK */
+.produk-card{
+border:none;
+
+border-radius:25px;
+
+overflow:hidden;
+
+background:white;
+
+box-shadow:0 10px 20px rgba(0,0,0,.12);
+
+transition:.3s;
+
+height:100%;
+
+animation:fadeUp .8s ease;
+}
+
+.produk-card:hover{
+transform:translateY(-8px);
+}
+
+.card-img-top{
+height:220px;
+object-fit:contain;
+padding:15px;
+background:white;
+}
+
+.card-body{
+text-align:center;
+}
+
+.card-body h5{
+font-weight:700;
+color:#5b2d0c;
+min-height:50px;
+}
+
+.card-body p{
+font-size:14px;
+color:#666;
+min-height:70px;
+}
+
+/* BADGE HARGA */
+.harga{
+display:inline-block;
+
+background:#fff8e7;
+
+padding:8px 15px;
+
+border-radius:20px;
+
+font-weight:bold;
+
+color:#dca93c;
+
+margin-bottom:10px;
+}
+
+/* TOMBOL WA */
+.btn-wa{
+background:#25D366;
+color:white;
+
+border:none;
+
+border-radius:30px;
+
+font-weight:600;
+
+padding:10px;
+
+transition:.3s;
+}
+
+.btn-wa:hover{
+background:#1ebe5d;
+color:white;
+
+transform:scale(1.03);
+}
+
+/* CARD */
+.card{
+border:none !important;
+border-radius:25px;
+box-shadow:0 8px 20px rgba(0,0,0,.1);
+}
+
+/* FOOTER */
+footer{
+background:#5b2d0c !important;
+border-radius:20px;
+margin-top:50px;
+}
+
+/* FLOATING WA */
+.floating-wa{
+position:fixed;
+
+bottom:25px;
+right:25px;
+
+width:60px;
+height:60px;
+
+background:#25D366;
+
+border-radius:50%;
+
+display:flex;
+align-items:center;
+justify-content:center;
+
+font-size:30px;
+
+color:white;
+text-decoration:none;
+
+box-shadow:0 5px 15px rgba(0,0,0,.3);
+
+z-index:9999;
+}
+
+.floating-wa:hover{
+transform:scale(1.1);
+color:white;
+}
+
+/* ANIMASI */
+@keyframes fadeUp{
+
+from{
+opacity:0;
+transform:translateY(20px);
+}
+
+to{
+opacity:1;
+transform:translateY(0);
+}
+
+}
+
+/* RESPONSIVE */
+@media(max-width:768px){
+
+.banner{
+height:180px;
+}
+
+#menu h2,
+#tentang h2,
+#lokasi h2{
+font-size:32px;
+}
+
+.navbar-brand{
+font-size:24px;
+}
+
+}
+
+.qty-box{
+display:flex;
+align-items:center;
+justify-content:center;
+gap:10px;
+margin:15px 0;
+}
+
+.qty-btn{
+width:35px;
+height:35px;
+border:none;
+border-radius:50%;
+background:#dca93c;
+color:white;
+font-size:20px;
+font-weight:bold;
+cursor:pointer;
+}
+
+.qty-btn:hover{
+background:#c08f2d;
+}
+
+.qty-input{
+width:50px;
+height:35px;
+text-align:center;
+border:1px solid #ddd;
+border-radius:8px;
+font-weight:bold;
+}
+
+.cart-box{
+border-radius:20px;
+margin-bottom:30px;
+}
+
+.cart-item{
+display:flex;
+justify-content:space-between;
+margin-bottom:10px;
+padding-bottom:10px;
+border-bottom:1px solid #eee;
+}
+
+.cart-item{
+display:flex;
+justify-content:space-between;
+align-items:center;
+
+padding:10px 0;
+
+border-bottom:1px solid #eee;
+}
+
+#cart-badge{
+font-size:14px;
+padding:8px 12px;
+border-radius:20px;
+}
+
+.cart-box{
+border-radius:20px;
+}
