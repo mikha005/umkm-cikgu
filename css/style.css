@@ -335,3 +335,163 @@ border-radius:20px;
 .cart-box{
 border-radius:20px;
 }
+
+/* ==========================
+   MOBILE RESPONSIVE
+========================== */
+@media (max-width: 768px){
+
+    body{
+        padding:10px;
+    }
+
+    .container{
+        padding:15px;
+        border-radius:20px;
+    }
+
+    /* Navbar */
+    .navbar-custom{
+        border-radius:15px;
+        padding:10px;
+    }
+
+    .navbar-brand{
+        font-size:22px;
+    }
+
+    .nav-link{
+        margin-left:0;
+        padding:8px 0;
+        text-align:center;
+    }
+
+    /* Banner */
+    .banner{
+        height:180px;
+        border-radius:20px;
+    }
+
+    /* Judul Section */
+    #menu h2,
+    #tentang h2,
+    #lokasi h2{
+        font-size:28px;
+        margin-bottom:25px;
+    }
+
+    #menu h2::after,
+    #tentang h2::after,
+    #lokasi h2::after{
+        width:80px;
+    }
+
+    /* Promo */
+    .promo-box{
+        padding:12px;
+        font-size:14px;
+    }
+
+    /* Produk */
+    .produk-card{
+        border-radius:18px;
+    }
+
+    .card-img-top{
+        height:160px;
+        padding:10px;
+    }
+
+    .card-body h5{
+        font-size:16px;
+        min-height:auto;
+    }
+
+    .card-body p{
+        font-size:13px;
+        min-height:auto;
+    }
+
+    .harga{
+        font-size:14px;
+        padding:6px 12px;
+    }
+
+    /* Tombol */
+    .btn-wa{
+        width:100%;
+        padding:12px;
+        font-size:14px;
+    }
+
+    /* Quantity */
+    .qty-box{
+        gap:8px;
+    }
+
+    .qty-btn{
+        width:32px;
+        height:32px;
+        font-size:18px;
+    }
+
+    .qty-input{
+        width:45px;
+        height:32px;
+    }
+
+    /* Keranjang */
+    .cart-item{
+        flex-direction:column;
+        align-items:flex-start;
+        gap:8px;
+    }
+
+    .cart-item div{
+        width:100%;
+    }
+
+    /* Floating WA */
+    .floating-wa{
+        width:50px;
+        height:50px;
+        font-size:24px;
+        right:15px;
+        bottom:15px;
+    }
+
+    footer{
+        border-radius:15px;
+        padding:15px !important;
+    }
+}
+
+/* Extra Small Device */
+@media (max-width: 480px){
+
+    .container{
+        padding:12px;
+    }
+
+    .banner{
+        height:140px;
+    }
+
+    #menu h2,
+    #tentang h2,
+    #lokasi h2{
+        font-size:24px;
+    }
+
+    .navbar-brand{
+        font-size:20px;
+    }
+
+    .card-img-top{
+        height:140px;
+    }
+
+    .btn-wa{
+        font-size:13px;
+    }
+}
