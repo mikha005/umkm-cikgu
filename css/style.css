@@ -47,16 +47,12 @@ color:#dca93c !important;
 
 /* BANNER */
 .banner{
-height:300px;
-
+height:350px;
 background-image:url('../img/bg.jpeg');
-
 background-size:cover;
 background-position:center;
 background-repeat:no-repeat;
-
 border-radius:30px;
-
 box-shadow:0 10px 25px rgba(0,0,0,.12);
 }
 
