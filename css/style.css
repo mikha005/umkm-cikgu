@@ -484,3 +484,27 @@ border-radius:20px;
         font-size:13px;
     }
 }
+
+.btn-delete{
+    width:42px;
+    height:42px;
+
+    background:white;
+
+    border:2px solid #dc3545;
+
+    color:#dc3545;
+
+    border-radius:12px;
+
+    font-size:18px;
+
+    transition:.3s;
+}
+
+.btn-delete:hover{
+    background:#dc3545;
+    color:white;
+}
+
+
