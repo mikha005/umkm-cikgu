@@ -123,11 +123,9 @@ Qty : ${item.qty}
 
 Rp ${subtotal.toLocaleString('id-ID')}
 
-<button
-class="btn btn-sm btn-danger ms-2"
-onclick="hapusItem(${index})">
-
-❌
+<button class="btn-delete" onclick="hapusItem(${index})">
+🗑️
+</button>
 
 </button>
 
