@@ -499,12 +499,14 @@ border-radius:20px;
 
     font-size:18px;
 
-    transition:.3s;
+    cursor:pointer;
+
+    transition:all .3s ease;
 }
 
 .btn-delete:hover{
     background:#dc3545;
     color:white;
+
+    transform:translateY(-2px);
 }
-
-
