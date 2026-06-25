@@ -164,25 +164,18 @@ margin-bottom:10px;
 
 /* TOMBOL WA */
 .btn-wa{
-background:#25D366;
-color:white;
-
-border:none;
-
-border-radius:30px;
-
-font-weight:600;
-
-padding:10px;
-
-transition:.3s;
+    background:#198754;
+    color:white;
+    border:none;
+    border-radius:30px;
+    font-weight:600;
+    padding:10px;
+    transition:.3s;
 }
 
 .btn-wa:hover{
-background:#1ebe5d;
-color:white;
-
-transform:scale(1.03);
+    background:#157347;
+    color:white;
 }
 
 /* CARD */
