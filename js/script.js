@@ -184,7 +184,7 @@ prompt("Masukkan Alamat Anda");
 if(!alamat) return;
 
 let nomor =
-"6282253341933";
+"6282159594345";
 
 let pesan =
 `Halo Admin,
